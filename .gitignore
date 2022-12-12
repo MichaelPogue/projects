@@ -1,2 +1,8 @@
+# Client/personal data
 .env
+
+# JSON Files
 *.json
+
+# Jupyter Notebooks
+.ipynb_checkpoints
