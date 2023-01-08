@@ -57,4 +57,4 @@ channel_name = channel_stats[0]['result_channel_name']
 dfc, dfv = yt.create_data_frame(channel_stats, video_details)
 yt.create_files(dfc, dfv)
 yt.append_new_videos_data(dfv)
-#yt.append_latest_statistics(dfv)
+yt.append_latest_statistics(dfv)
